@@ -1,0 +1,339 @@
+.register__title {
+  color: #232536;
+  text-align: center;
+  font-family: "Sen", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -2px;
+  margin-top: 69px;
+}
+#form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
+  margin-top: 68px;
+}
+.input {
+  display: flex;
+  width: 768px;
+  padding: 24px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 2px;
+  border: 1px solid rgba(109, 110, 118, 0.5);
+}
+.input-2 {
+  display: flex;
+  width: 768px;
+  padding: 24px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 2px;
+  border: 1px solid rgba(109, 110, 118, 0.5);
+}
+.input-3 {
+  display: flex;
+  width: 768px;
+  padding: 24px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 2px;
+  border: 1px solid rgba(109, 110, 118, 0.5);
+}
+.input-4 {
+  display: flex;
+  width: 768px;
+  padding: 24px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 2px;
+  border: 1px solid rgba(109, 110, 118, 0.5);
+}
+.input-5 {
+  display: flex;
+  width: 768px;
+  padding: 24px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 2px;
+  border: 1px solid rgba(109, 110, 118, 0.5);
+}
+
+.btn {
+  width: 815px;
+  height: 64px;
+  flex-shrink: 0;
+  background: var(--Yellow, #ffd050);
+  border: none;
+  color: var(--Black, #232536);
+  font-family: Sen;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; 
+}
+.knopka{
+  width: 20px;
+  height: 20px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  #firstname {
+    display: flex;
+    width: 668px;
+    padding: 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+  }
+  #username {
+    display: flex;
+    width: 668px;
+    padding: 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+  }
+  #lastname {
+    display: flex;
+    width: 668px;
+    padding: 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+  }
+  #password {
+    display: flex;
+    width: 668px;
+    padding: 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+  }
+  #confirm-password {
+    display: flex;
+    width: 668px;
+    padding: 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+  }
+  
+  #btn {
+    width: 715px;
+    height: 64px;
+    flex-shrink: 0;
+    background: var(--Yellow, #ffd050);
+    border: none;
+    color: var(--Black, #232536);
+    font-family: Sen;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; 
+  }
+}
+
+
+
+@media only screen and (max-width: 550px) {
+  #firstname {
+    display: flex;
+    width: 330px;
+    padding: 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+  }
+  #username {
+    display: flex;
+    width: 330px;
+    padding: 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+  }
+  #lastname {
+    display: flex;
+    width: 330px;
+    padding: 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+  }
+  #password {
+    display: flex;
+    width: 330px;
+    padding: 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+  }
+  #confirm-password {
+    display: flex;
+    width: 330px;
+    padding: 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+  }
+  
+  #btn {
+    width: 380px;
+    height: 64px;
+    flex-shrink: 0;
+    background: var(--Yellow, #ffd050);
+    border: none;
+    color: var(--Black, #232536);
+    font-family: Sen;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; 
+  }
+}
+
+
+
+@media only screen and (max-width: 380px) {
+  #firstname {
+    display: flex;
+    width: 270px;
+    padding: 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+  }
+
+
+  #username {
+    display: flex;
+    width: 270px;
+    padding: 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+  }
+  #lastname {
+    display: flex;
+    width: 270px;
+    padding: 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+  }
+  #password {
+    display: flex;
+    width: 270px;
+    padding: 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+  }
+  #confirm-password {
+    display: flex;
+    width: 270px;
+    padding: 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+  }
+  
+  #btn {
+    width: 320px;
+    height: 64px;
+    flex-shrink: 0;
+    background: var(--Yellow, #ffd050);
+    border: none;
+    color: var(--Black, #232536);
+    font-family: Sen;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; 
+  }
+}
+
+@media only screen and (max-width: 320px)  {
+  #firstname {
+    display: flex;
+    width: 220px;
+    padding: 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+  }
+
+
+  #username {
+    display: flex;
+    width: 220px;
+    padding: 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+  }
+  #lastname {
+    display: flex;
+    width: 220px;
+    padding: 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+  }
+  #password {
+    display: flex;
+    width: 220px;
+    padding: 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+  }
+  #confirm-password {
+    display: flex;
+    width: 220px;
+    padding: 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+  }
+  
+  #btn {
+    width: 260px;
+    height: 44px;
+    flex-shrink: 0;
+    background: var(--Yellow, #ffd050);
+    border: none;
+    color: var(--Black, #232536);
+    font-family: Sen;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; 
+  }
+}

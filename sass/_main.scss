@@ -1,0 +1,226 @@
+.main {
+    max-width: 1350px;
+    margin:0 auto;
+  &__title {
+    color: #000;
+    font-family: "Sen", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    margin-top: 94px;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+  }
+
+  &__deta {
+    color: var(--Dark-Grey, #4c4c4c);
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  &__color {
+    color: var(--Purple, #592ea9);
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  &__text {
+    color: var(--Black, #232536);
+    font-family: "Sen", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    max-width: 405px;
+  }
+  &__info {
+    color: var(--Black, #232536);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 405px;
+  }
+  &__hr {
+    margin-top: 66px;
+    opacity: 0.3;
+    background: #6d6e76;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .main__cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+  }
+  .main__title {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+
+    .main{
+        &__conteyner {
+            max-width: 380px;
+            margin: 0 auto ;
+          }
+    }
+
+  .main__card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .main__img{
+    width: 380px;
+  }
+
+  .main__deta {
+    color: var(--Dark-Grey, #4c4c4c);
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+  }
+  .main__color {
+    color: var(--Purple, #592ea9);
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .main__text {
+    color: var(--Black, #232536);
+    font-family: "Sen", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    max-width: 405px;
+    text-align: center;
+  }
+  .main__info {
+    color: var(--Black, #232536);
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 405px;
+    text-align: center;
+  }
+  .main__cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+  .main__hr {
+    margin-top: 66px;
+    opacity: 0.3;
+    background: #6d6e76;
+  }
+}
+
+
+
+@media only screen and (max-width: 380px){
+
+    .main{
+        &__conteyner {
+            max-width: 350px;
+            margin: 0 auto ;
+          }
+    }
+
+  .main__card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .main__img{
+    width: 350px;
+  }
+
+  .main__deta {
+    color: var(--Dark-Grey, #4c4c4c);
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .main__color {
+    color: var(--Purple, #592ea9);
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .main__text {
+    color: var(--Black, #232536);
+    font-family: "Sen", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    max-width: 405px;
+  }
+  .main__info {
+    color: var(--Black, #232536);
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 405px;
+  }
+  .main__cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+  .main__hr {
+    margin-top: 66px;
+    opacity: 0.3;
+    background: #6d6e76;
+  }
+
+}
+
+@media only screen and (max-width: 380px){
+  .main__img{
+    width: 300px;
+  }
+  .main__conteyner {
+    max-width: 300px;
+    margin: 0 auto ;
+  }
+}

@@ -1,0 +1,114 @@
+.section2 {
+  background: var(--Lavender, #f4f0f8);
+  max-width: 1518px;
+  height: 348px;
+  flex-shrink: 0;
+  &__content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  &__title2 {
+    color: var(--Black, #232536);
+    text-align: center;
+    font-family: "Sen", sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    margin-top: 80px;
+  }
+  &__text2 {
+    color: var(--Medium-grey, #6d6e76);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 515px;
+  }
+  &__info2 {
+    color: var(--Black, #232536);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+}
+
+#input__search {
+  display: flex;
+  width: 1280px;
+  padding: 24px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 2px;
+  border: 1px solid rgba(109, 110, 118, 0.5);
+  margin-top: 57px;
+}
+
+.conteyner {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  #input__search {
+    width: 600px;
+    display: flex;
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #input__search {
+    width: 260px;
+    display: flex;
+    margin-left: 50px;
+  }
+}
+
+
+@media only screen and (max-width: 380px) {
+  #input__search {
+    width: 220px;
+    display: flex;
+    margin-left: 30px;
+  }
+}
+
+
+
+
+
+#news-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.news-item {
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.news-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.news-description {
+  margin-bottom: 10px;
+}
+.news-source {
+  font-style: italic;
+}
+
+

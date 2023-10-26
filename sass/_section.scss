@@ -1,0 +1,317 @@
+.section {
+  background-image: url(../images/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.png);
+  height: 760px;
+  max-width: 1518px;
+  background-size: 100%;
+
+  &__conteyner {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding-top: 128px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  &__text {
+    color: var(--Light, #fff);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    color: var(--Light, #fff);
+    font-family: "Sen", sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    max-width: 803px;
+  }
+
+  &__deta {
+    color: var(--Light, #fff);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  &__color {
+    color: var(--Yellow, #ffd050);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  &__info {
+    color: var(--Light, #fff);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 599px;
+  }
+  &__btn {
+    background: var(--Yellow, #ffd050);
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 12px;
+    border: none;
+    color: var(--Black, #232536);
+    font-family: "Sen", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    max-width: 204px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+  }
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+  .section {
+    background-image: url(../images/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.png);
+    height: 383px;
+    background-size: 100%;
+  }
+  .section__conteyner{
+    max-width: 700px;
+    margin: 0 auto;
+    gap: 1px;
+    padding-top: 70px;
+  }
+
+  .section__title{
+    font-size: 30px;
+  }
+  .section__btn{
+    max-width: 120px;
+    height: 30px;
+    font-size: 13px;
+  }
+}
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 550px) {
+
+    .section{
+      background-image: url(../images/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.png);
+      height: 213px;
+      max-width: 426px;
+    }
+
+    .section__text {
+      color: var(--Light, #fff);
+      font-family: "Inter", sans-serif;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    .section__title {
+      color: var(--Light, #fff);
+      font-family: "Sen", sans-serif;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 64px;
+      letter-spacing: -2px;
+      max-width: 703px;
+    }
+
+    .section__deta {
+      color: var(--Light, #fff);
+      font-family: "Inter", sans-serif;
+      font-size: 6px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+    }
+     .section__color {
+      color: var(--Yellow, #ffd050);
+      font-family: "Inter", sans-serif;
+      font-size: 6px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+    }
+     .section__info {
+      color: var(--Light, #fff);
+      font-family: "Inter", sans-serif;
+      font-size: 6px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+      max-width: 300px;
+    }
+     .section__btn {
+      background: var(--Yellow, #ffd050);
+      display: inline-flex;
+      align-items: flex-start;
+      gap: 2px;
+      border: none;
+      color: var(--Black, #232536);
+      font-family: "Sen", sans-serif;
+      font-size: 6px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px;
+      max-width: 100px;
+      height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1px;
+      text-align: center;
+    }
+
+     .section__conteyner {
+      padding-top: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 1px;
+    }
+
+    
+
+  }
+
+
+
+  @media only screen and (max-width: 380px) {
+    .section{
+      background-image: url(../images/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.png);
+      height: 188px;
+      max-width: 426px;
+    }
+
+    .section__text {
+      color: var(--Light, #fff);
+      font-family: "Inter", sans-serif;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    .section__title {
+      color: var(--Light, #fff);
+      font-family: "Sen", sans-serif;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 64px;
+      letter-spacing: -2px;
+      max-width: 703px;
+    }
+
+    .section__deta {
+      color: var(--Light, #fff);
+      font-family: "Inter", sans-serif;
+      font-size: 6px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+    }
+     .section__color {
+      color: var(--Yellow, #ffd050);
+      font-family: "Inter", sans-serif;
+      font-size: 6px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+    }
+     .section__info {
+      color: var(--Light, #fff);
+      font-family: "Inter", sans-serif;
+      font-size: 6px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+      max-width: 300px;
+    }
+     .section__btn {
+      background: var(--Yellow, #ffd050);
+      display: inline-flex;
+      align-items: flex-start;
+      border: none;
+      color: var(--Black, #232536);
+      font-family: "Sen", sans-serif;
+      font-size: 6px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+      max-width: 90px;
+      height: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-top: -6px;
+    }
+
+     .section__conteyner {
+      padding-top: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 1px;
+    }
+  }
+
+  @media only screen and (max-width: 380px){
+    .section{
+      background-image: url(../images/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.png);
+      height: 161px;
+      max-width: 426px;
+    }
+    .section__btn {
+      background: var(--Yellow, #ffd050);
+      display: inline-flex;
+      align-items: flex-start;
+      border: none;
+      color: var(--Black, #232536);
+      font-family: "Sen", sans-serif;
+      font-size: 6px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+      max-width: 90px;
+      height: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-top: -32px;
+    }
+  }
